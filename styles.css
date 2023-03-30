@@ -168,22 +168,3 @@ button:hover {
     outline: 2px solid hotpink;
 }
 
-.icon {
-    transition: transform 300ms linear;
-}
-
-.icon:hover {
-    transform: scale(1.15) translateX(2px);
-}
-
-@media (max-width: 600px) {
-    .theme-container {
-        display: none;
-    }
-}
-
-@media (max-height: 700px) {
-    footer {
-        display: none;
-    }
-}
