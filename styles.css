@@ -1,9 +1,9 @@
 :root {
-    --bg-solid: #eea1f9;
-    --bg-secondary: #5636dc;
+    --bg-solid: rgb(249, 233, 161);
+    --bg-secondary: rgb(249, 233, 161);
     --bg-gradient: linear-gradient(225deg,
-            rgba(86, 54, 220, 1) 0%,
-            rgba(238, 161, 249, 1) 100%);
+            rgb(227, 176, 7) 0%,
+            rgb(249, 239, 161) 100%);
 }
 
 body {
@@ -135,10 +135,10 @@ button:hover {
 }
 
 .set1 {
-    background: rgb(238, 161, 249);
+    background: rgb(249, 233, 161);
     background: linear-gradient(225deg,
-            rgba(86, 54, 220, 1) 0%,
-            rgba(238, 161, 249, 1) 100%);
+            rgb(227, 176, 7) 0%,
+            rgb(249, 239, 161) 100%);
 }
 
 .set2 {
@@ -152,19 +152,19 @@ button:hover {
 .set3 {
     background: hsla(221, 73%, 63%, 1);
     background: linear-gradient(45deg,
-            hsla(184, 70%, 54%, 1) 0%,
-            hsla(221, 73%, 63%, 1) 100%);
+            rgb(56, 157, 220) 0%,
+            rgb(46, 72, 127) 100%);
 }
 
 .set4 {
-    background: hsla(99, 100%, 74%, 1);
+    background: rgb(197, 243, 173);
     background: linear-gradient(45deg,
-            hsla(99, 100%, 74%, 1) 0%,
-            hsla(173, 100%, 35%, 1) 100%);
+            rgb(175, 209, 157) 0%,
+            rgb(119, 152, 148) 100%);
 }
 
 .active {
-    box-shadow: 0 0 10px 0 rgba(211, 4, 183, 0.781);
-    outline: 2px solid hotpink;
+    box-shadow: 0 0 10px 0 rgba(248, 142, 22, 0.873);
+    outline: 2px solid rgb(255, 143, 39);
 }
 
