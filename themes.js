@@ -1,3 +1,5 @@
+//script for themes
+
 const root = document.documentElement;
 const themes = document.querySelectorAll(".theme-container > div");
 
