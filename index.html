@@ -1,10 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-    </head>
-    <body>
-        
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <title>calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="themes.js" defer></script>
+    <title>Scientific Calculator</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="theme-container">
+        <p class="theme-title">themes</p>
+        <div data-solid="#eea1f9" data-secondary="#5636dc" class="set1 active"></div>
+        <div data-solid="#f0904b" data-secondary="#ed4783" class="set2"></div>
+        <div data-solid="#45b7df" data-secondary="#2360d1" class="set3"></div>
+        <div data-solid="#76e885" data-secondary="#2e9c81" class="set4"></div>
+    </div>
+    <div class="container">
+        <div class="calculator">
+            <div class="ui">
+                <div class="entry">
+                    <div class="history"></div>
+                    <div class="current-entry"></div>
+                </div>
+                <div class="buttons">
+                    <div class="row 1">
+                        <button class="top delete" data-value="delete">DEL</button>
+                        <button class="top clear" data-value="clear">CLR</button>
+                        <button class="percent" value="%">%</button>
+                        <button class="operator plus" value="+">+</button>
+                    </div>
+                    <div class="row 2">
+                        <button class="num seven" value = "7">7</button>
+                        <button class="num eight" value="8">8</button>
+                        <button class="num nine" value="9">9</button>
+                        <button class="operator minus" value="-">-</button>
+                    </div>
+                    <div class="row 3">
+                        <button class="num four" value="4">4</button>
+                        <button class="num five" value="5">5</button>
+                        <button class="num six" value="6">6</button>
+                        <button class="operator divide" value="/">/</button>
+                    </div>
+                    <div class="row 4">
+                        <button class="num one" value="1">1</button>
+                        <button class="num two" value="2">2</button>
+                        <button class="num three" value="3">3</button>
+                        <button class="operator multiply" value="*">*</button>
+                    </div>
+                    <div class="row 5">
+                        <button class="num zero" value="0">0</button>
+                        <button class="decimal" value="decimal">.</button>
+                        <button class="neg" value="neg">+/-</button>
+                        <button class="equals" value="equals">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer><div>Created by: MaddyLok <a href="https://github.com/maddylok/calculator"><i class="icon fa-brands fa-github"></i></a></div></footer>
+</body>
+
 </html>
